@@ -1,0 +1,11 @@
+name: HDCoins
+version: '${project.version}'
+main: me.justacat.hdcoins.HDCoins
+api-version: 1.17
+commands:
+  hdcoins:
+  getTokenGen:
+    permission: op
+  hdgive:
+    permission: op
+    usage: "/hdgive <player> <amount>"
